@@ -63,37 +63,3 @@ Telemetry & Data Handling: Pandas
 Cloud Infrastructure & Acceleration: AMD Token Factory, AMD Radeon Cloud / ROCm vLLM
 
 Models Tested: DeepSeek-V4-Flash / Gemma-4-31B-IT (Google Partner Track)
-
-📦 Getting Started
-
-1. Clone the Repository
-
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/ApexSentry-Industrial-Triage.git
-cd ApexSentry-Industrial-Triage
-
-
-2. Install Dependencies
-
-pip install -r requirements.txt
-
-
-3. Run the Application
-
-streamlit run app.py
-
-
-4. Configuration
-
-Open http://localhost:8501 in your browser.
-
-Under Connection Settings in the left sidebar, verify your AMD Bearer Token and select the active model endpoint (DeepSeek-V4-Flash or Gemma-4-31B-IT).
-
-Select an incident preset, observe the edge contour extraction, and click Transmit Telemetry to AMD Cloud to generate the live diagnostic brief.
-
-🏆 Hackathon Alignment
-
-Track: Track 1: Intelligent Industry
-
-Partner Award Eligibility: AMD Developer Cloud / ROCm Infrastructure & Google Open Models (Gemma-4-31B-IT)
-
-Submission Event: AMD Developer Hackathon: ACT III (October 2026)
